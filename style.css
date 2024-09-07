@@ -1,0 +1,143 @@
+
+/* header section */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(8,1,59);
+  padding: 10px 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #ff49db;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image{
+    width: 24px;
+    padding-right: 3px;
+}
+
+.lang-image{
+    width: 24px;
+    height: 24px;
+}
+
+
+/* hero section */
+
+
+.hero-section {
+  background-color: rgb(8,1,59);
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #d31212;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* display: flex; */
+}
+
+.button-image{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    /* align-items: right; */
+}
+
+.banner {
+    background-color: rgb(8,1,59);
+    width: 100%;
+    /* height: 30px; */
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner p {
+    color: white;
+    font-size: 14px;
+    /* font-weight: bold; */
+  }
+
+  /* heading section */
+
+  .heading {
+    background-color: white;
+    max-width: auto; /* Adjust the width as needed */
+    padding: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  
+  .heading p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    /* Uncomment the following line if you want centered text */
+    text-align: center;
+  }
+
+
+  /* supported platforms */
+
+  .Platforms h5{
+    text-align: center;
+    font-size: x-large;
+    color: #333;
+  }
+  .supported-platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+
+  .supported-platforms img {
+    height: 125px;
+    margin: 0 30px;
+    /* stroke-color: rgb(8,1,59); */
+  }
